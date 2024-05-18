@@ -1,0 +1,629 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #1A272E; 
+    background-image: url("./background\ img.png ");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-blend-mode: soft-light ;
+}
+
+.hamburger{
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: #FEFAF6;
+    height: 40px;
+    line-height: 2;
+    display: none;
+}
+
+.navbar-container{
+    background-color: #151B1E;
+    display: block;
+    position: fixed;
+    width: 212px;
+    height: 100vh;
+}
+
+.navbar-container  .logo  img{
+    width: 95px;
+    display: block;
+    margin: 49px 58px 105px 58px;
+}
+
+.navbar-container .navbar nav ul{
+    list-style-type: none;
+    width: 212px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    margin-bottom: 60px;
+}
+
+.navbar-container .navbar nav ul a{
+    color: #FEFAF6;
+    text-decoration: none;
+    line-height: 2;
+    font-family: alumni sans;
+    font-size: 26px;
+    font-weight: light;
+}
+
+.navbar-container .navbar nav ul a:hover{
+    color: #6CE8BB;
+    font-size: 30px;
+}
+
+.navbar-container .social-media-links{
+    display: flex;
+    flex-direction: row;
+    width: 50vw;
+}
+
+.navbar-container .social-media-links img{
+    margin: 10px;
+    padding: 10px;
+}
+
+.container-title{
+    font-family: alumni sans;
+    display: flex;
+    flex-direction: column;
+    margin-left: 290px;
+}
+
+
+.container-title .title h1{
+    margin-top: 200px;
+    font-size: 120px;
+    color: #FEFAF6;
+    font-weight: bolder;
+    line-height: 1;
+}
+
+.container-title .title h1 span{
+    color: #6CE8BB;
+}
+
+.container-title .title-button button{
+    width: 189px;
+    height: 49px;
+    font-size: 30px;
+    font-weight: medium;
+    color: #6CE8BB;
+    background-color: #1A272E;
+    border: 2px solid #6CE8BB;
+    text-align: center;
+    margin-top: 80px;
+    font-family: alumni sans;
+}
+
+.container-title .title-button button a{
+    text-decoration: none;
+    color: #6CE8BB;
+}
+
+.container-title .title-button a:hover{
+    color: #1A272E;
+}
+
+.container-title .title-button button:hover{
+    font-family: alumni sans;
+    background-color: #6CE8BB;
+    color: #1A272E;
+    box-shadow: 0 4px 10px 0 rgba(96,167,141,0.43),2px 2px 10px 0 rgba(96,167,141,0.43) ;
+}
+
+.about-me-container{
+    font-family: alumni sans;
+    display: flex;
+    flex-direction: column;
+    margin-top: 300px;
+    margin-left: 290px;
+}
+
+.about-me-container .title h2{
+    font-size: 100px;
+    color: #6CE8BB;
+    font-weight: bolder;
+}
+
+.about-me-container .title h2 span{
+    font-weight: bold;
+    color: #FEFAF6;
+}
+
+.about-me-container .text{
+    font-family: inter;
+    font-size: 18px;
+    line-height: 2;
+    width: 681px;
+    font-weight: lighter;
+    color: #FEFAF6;
+}
+
+.about-me-container .skills .skills-title h3{
+    color: #6CE8BB;
+    font-size: 60px;
+    font-weight: medium;
+    margin-top: 70px;
+}
+
+.about-me-container .skills .skills-title h3 span{
+    color: #FEFAF6;
+}
+
+.about-me-container .skills .skills-imgs{
+    display: flex;
+}
+.about-me-container .skills .skills-imgs img{
+    margin: 20px;
+}
+
+.about-me-container .skills .skills-imgs  h3{
+    color: #6CE8BB;
+    font-size: 60px;
+    font-weight: medium;
+}
+
+
+.about-me-container .container-button button{
+    width: 189px;
+    height: 49px;
+    background-color: #6CE8BB;
+    margin-top: 70px;
+    border: none;
+    font-family: alumni sans;
+}
+
+.about-me-container .container-button button a{
+    text-decoration: none;
+    color: #1A272E;
+    font-size: 30px;
+    font-weight: medium;   
+}
+
+.about-me-container .container-button button:hover{
+    background-color: #1A272E;
+    border: 1px solid #6CE8BB;
+    box-shadow: 0 4px 10px 0 rgba(96,167,141,0.43),2px 2px 10px 0 rgba(96,167,141,0.43) ;
+}
+
+.about-me-container .container-button button a:hover{
+    color: #6CE8BB;
+    box-shadow: #FEFAF6;
+}
+
+.selected-projects-container{
+    font-family: alumni sans;
+    display: flex;
+    flex-direction: column;
+    margin-top: 300px;
+    margin-left: 290px;
+}
+
+.selected-projects-container .title h2{
+    font-size: 100px;
+    color: #6CE8BB;
+    font-weight: bolder;
+}
+
+.selected-projects-container .title span{
+    color: #FEFAF6;
+}
+
+.selected-projects-container .project{
+    background-color: #1A272E;
+    color: #FEFAF6;
+    border: none;
+    height: 290px;
+    margin-top: 100px;
+}
+
+.cards-container{
+    margin: 0 auto;
+    padding: 100px;
+}
+
+.card-left {
+    margin-top: 70px;
+    width: 75%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 3rem;
+    
+}
+
+.card-left .card-img{
+    grid-column: 1/3;
+    grid-row: 1/4;
+}
+
+.card .card-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card .card-title{
+    font-size: 30px;
+    color: #FEFAF6;
+    font-family: alumni sans;
+    margin: auto 0;
+}
+
+.card .card-text{
+    font-family: inter;
+    font-size: 16px;
+    line-height: 2;
+    font-weight: lighter;
+    color: #FEFAF6;
+}
+
+.card .card-button button{
+    margin: auto 0;
+    width: 189px;
+    height: 49px;
+    background-color: #1A272E;
+    font-size: 30px;
+    font-weight: medium;
+    border: 2px solid #6CE8BB;
+    text-align: center;
+    font-family: alumni sans;
+}
+
+.card .card-button button a{
+    text-decoration: none;
+    color: #6CE8BB;
+}
+
+.card .card-button button:hover{
+    background-color: #1A272E;
+    border: 1px solid #6CE8BB;
+    box-shadow: 0 4px 10px 0 rgba(96,167,141,0.43),2px 2px 10px 0 rgba(96,167,141,0.43) ;
+}
+
+.card .card-button button :hover{
+    color: #6CE8BB;
+    box-shadow: #FEFAF6;
+}
+
+.card-right {
+    margin-top: 70px;
+    width: 75%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 3rem;
+    
+}
+
+.card-right .card-img{
+    grid-column: 2/4;
+    grid-row: 1/4;
+}
+
+.selected-projects-container .container-button button{
+    text-decoration: none;
+    color: #1A272E;
+    font-size: 30px;
+    font-weight: medium;
+    width: 189px;
+    height: 49px;
+    background-color: #6CE8BB;
+    margin-top: 50px;
+    border: none; 
+}
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+    margin-left: 290px;
+    font-family: alumni sans;
+}
+
+.contact-form  .contact-form-title h2{
+    font-size: 100px;
+    color: #6CE8BB;
+    font-weight: bolder;
+}
+
+.contact-form  .contact-form-title span{
+    color: #FEFAF6;
+}
+
+.contact-form .form-control{
+    background-color: #1A272E;
+    border: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+.contact-form .form-control label{
+    font-size: 20px;
+    color: #FEFAF6;
+    font-weight: medium;
+}
+
+.contact-form .form-control input{
+    background-color: #1A272E;
+    border: 2px solid #6CE8BB;
+    width: 520px;
+    height: 50px;
+    color: #FEFAF6;
+    font: normal 16px inter;
+}
+
+.contact-form .form-control #message{
+    height: 150px;
+    
+}
+
+.contact-form form .form-button input{
+    font-family: alumni sans;
+    text-decoration: none;
+    color: #1A272E;
+    font-size: 30px;
+    font-weight: medium;
+    width: 189px;
+    height: 49px;
+    background-color: #6CE8BB;
+    margin-top: 50px;
+    border: none;   
+}
+
+.contact-form form .form-button input:hover{
+    font-family: alumni sans;
+    background-color: #1A272E;
+    color: #6CE8BB;
+    border: 1px solid #6CE8BB;
+    box-shadow: 0 4px 10px 0 rgba(96,167,141,0.43),2px 2px 10px 0 rgba(96,167,141,0.43) ;
+}
+
+
+.foother{
+    margin-top: 200px;
+    width: 100%;
+    background-color: #6CE8BB;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+}
+
+.foother p{
+    
+    margin-left: 290px;
+    font-family: alumni sans;
+    font-weight: bold;
+}
+
+.foother .email{
+    margin-right: 60px;
+}
+
+
+
+@media (max-width: 576px){
+
+body{
+    background-size: inherit;
+    background-position: center top;
+    background-image: url("./responssive pics/background.png ");
+}
+
+    
+.main-container{
+        margin: 0 auto;
+        width: 100vw;
+    }
+
+.hamburger{
+    display: block;
+    padding-inline-start: 20px;
+    height: auto;
+    background-color: #1A272E;
+}
+
+.navbar-container{
+    flex-direction: column;
+    height: 100vh;
+    display: none;
+    width: 200px;
+    position: absolute;
+    background-color: #1A272E;
+    
+}
+
+.navbar-container .logo img{
+    width: 70px;
+    margin: 49px 65px 105px 65px;
+}
+
+.hamburger:hover+div{
+    display: block;
+}
+
+.navbar-container .navbar nav ul{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.navbar-container .navbar nav ul a{
+    font-size: 20px;
+}
+
+.navbar-container .social-media-links{
+    width: 100%;
+}
+
+.navbar-container .social-media-links img{
+    width: 60%;
+}
+
+.container-title{
+    margin-left: 25px;
+    width: 90%;
+}
+
+.container-title .title h1{
+    font-size: 80px;
+    margin-top: 120px;
+}
+
+.container-title .title-button button{
+    width: 138px;
+    height: 36px;
+    font-size: 22px;
+    margin-top: 100px;
+}
+
+.about-me-container{
+    margin: 200px auto;
+    text-align: center;
+    align-items: center;
+}
+
+.about-me-container .title h2{
+    font-size: 50px;
+}
+
+.about-me-container .text{
+    font-size: 16px;
+    width: 85vw;
+}
+
+.about-me-container .skills .skills-title h3{
+    font-size: 30px;
+}
+
+.about-me-container .skills .skills-imgs{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    padding: 20px;
+    justify-items: center;
+}
+
+.about-me-container .skills .skills-imgs img{
+    width: 50%;
+    height: 50%;
+    object-fit: contain;
+}
+
+.about-me-container .skills .skills-imgs  h3{
+    font-size: 30px;
+    margin: 30px auto;
+}
+
+.about-me-container .container-button button{
+    width: 140px;
+    height: 36px;
+}
+
+.about-me-container .container-button button a{
+    font-size: 22px;
+}
+
+
+.selected-projects-container{
+    margin: 100px auto;
+    text-align: center;
+}
+
+
+.selected-projects-container .title h2{
+    font-size: 50px;
+}
+
+.cards-container{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    align-items: center;
+}
+
+.cards-container .card-left{
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    margin-top: 100px;
+}
+
+.cards-container .card-right{
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    margin-top: 100px;
+}
+
+.card .card-title{
+    font-size: 24px;
+}
+
+.card .card-text{
+    font-size: 16px;
+}
+
+.card .card-button button{
+    width: 138px;
+    height: 36px;
+    font-size: 22px;
+    margin-top: 50px;
+}
+
+.contact-form{
+    width: 85vw;
+    margin: 200px auto;
+}
+
+.contact-form  .contact-form-title h2{
+    font-size: 50px;
+}
+
+.contact-form .form-control label{
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.contact-form .form-control input{
+    width: 100%;
+    height: 40px;
+}
+
+.contact-form form .form-button input{
+    width: 140px;
+    height: 36px;
+    font-size: 22px;
+}
+
+.foother{
+    margin: 100px auto 0 0;   
+    justify-content: space-around
+}
+
+.foother p{
+    font-size: 16px;
+    margin: 0 25px;
+    font-weight: 400;
+}
+
+.foother .email{
+    margin: 0;
+}
+}
+
+
+

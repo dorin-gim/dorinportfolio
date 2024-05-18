@@ -223,6 +223,7 @@ body {
     height: 36px;
     font-size: 22px;
     margin-bottom: 15px;
+    margin-right: 0px;
   }
   .container .project-buttons .secondary-button {
     width: 138px;

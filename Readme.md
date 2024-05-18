@@ -7,7 +7,6 @@ This portfolio project demonstrates my development abilities.
 - [Project Description](#project-description)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
 - [Contact](#contact)
 
 ## Project Description
@@ -26,3 +25,26 @@ List any prerequisites for the project:
 - Code editor (e.g., VSCode, Sublime Text)
 
 ### Installation Steps
+
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/dorin-gim/dorinportfolio.git
+
+2. Navigate to the project directory:
+   ```sh
+   cd home page
+
+3. Open index.html in your web browser to view the project.
+
+### Usage
+Provide instructions and examples for using the project. For example:
+
+1. Open index.html in your web browser.
+2. Navigate through the various sections to explore the content.
+3. Use the contact form to get in touch (if applicable).
+
+### Contact
+
+Dorin Gimpel Gal - doringim1@gmail.com
+
+Project Link: https://github.com/dorin-gim/dorinportfolio.git

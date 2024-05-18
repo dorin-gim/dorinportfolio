@@ -1,0 +1,177 @@
+body{
+    background-color: $backColor;
+    background-image: url("./background\ img.png ");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-blend-mode: soft-light;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.container-title{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    width: 100%;
+}
+
+.container .logo{
+    margin: 60px 60px 0;
+    width: 10%;
+}
+
+.container .logo img{
+    width: $logoSize;
+}
+
+.container .container-title .project-title{
+    width: 80%;
+    color: $firstColor;
+    font-family: $titleFont;
+    font-size: $titleSize;
+    font-weight: bolder;
+}
+
+.container .project-title span{
+    color: $secondColor;
+}
+
+.container .project-info{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 100px 295px 0;
+}
+
+.container .project-info .project-text{
+    color: $firstColor;
+    font-family: $textFont;
+    font-size: $textSize;
+    width: $textWidth;
+    font-weight: $textFontWeight;
+    line-height: $textLineHeight;
+    text-align: $textAlign;
+}
+
+.container .project-info .project-tools{
+    margin: 10px;
+}
+
+.container .project-info .project-tools img{
+    margin: 10px;
+    width: $imgToolSize;
+}
+
+.container .project-buttons{
+    margin: 60px 295px 60px;
+    display: flex;
+}
+
+
+.container .project-buttons .secondary-button{
+    background-color: $backColor;
+    color: $secondColor;
+    border: $secondButtonBorder;
+    width: $buttonWidth;
+    height: $buttonHeight;
+    font-family: $titleFont;
+    font-size: $buttonFontSize;
+    text-decoration: $buttonDecoration;
+}
+.container .project-buttons .secondary-button a{
+    text-decoration: none;
+    color: $secondColor;
+    width: $buttonWidth;
+}
+
+.container .project-buttons .secondary-button:hover{
+    background-color: $secondColor;
+    color: $backColor;
+    box-shadow: 0 4px 10px 0 rgba(96,167,141,0.43),2px 2px 10px 0 rgba(96,167,141,0.43) ;
+}
+
+.container .project-buttons .secondary-button a:hover{
+    text-decoration: $buttonDecoration;
+    color: $backColor;
+    width: $buttonMobileWidth;
+}
+
+.container .project-buttons .primary-button{
+    width: $buttonWidth;
+    height: $buttonHeight;
+    font-family: $titleFont;
+    font-size: $buttonFontSize;
+    background-color: $secondColor;
+    border: 0;
+    text-decoration: none;
+    margin-right: 25px;
+}
+
+.container .project-buttons .primary-button a{
+    text-decoration: none;
+    color: $backColor;
+}
+
+.container .project-buttons .primary-button:hover{
+    background-color: $backColor;
+    color: $secondColor;
+    border: $secondButtonBorder;
+    box-shadow: 0 4px 10px 0 rgba(96,167,141,0.43),2px 2px 10px 0 rgba(96,167,141,0.43) ;
+}
+
+.container .project-buttons .primary-button a:hover{
+    color: $secondColor;
+    width: 100%;
+}
+
+.container .project-img img{
+    width: $projectImgSize;
+    margin: 0 $marginLeft 60px;
+}
+
+.container .back-to-home-button .secondary-button{
+    background-color: $backColor;
+    color: $secondColor;
+    border: $secondButtonBorder;
+    width: $buttonWidth;
+    height: $buttonHeight;
+    font-family: $titleFont;
+    font-size: $buttonFontSize;
+    margin-left: $marginLeft;
+    margin-bottom: 100px;
+}
+
+.container .back-to-home-button .secondary-button a{
+    text-decoration: $buttonDecoration;
+    color: $secondColor;
+}
+
+.container .back-to-home-button .secondary-button:hover{
+    background-color: $secondColor;
+    box-shadow: 0 4px 10px 0 rgba(96,167,141,0.43),2px 2px 10px 0 rgba(96,167,141,0.43) ;
+}
+
+.container .back-to-home-button .secondary-button a:hover{
+    color: $backColor;
+}
+
+.container .foother{
+    display: flex;
+    flex-direction: row;
+    background-color: $secondColor;
+    color: $backColor;
+    font-family: $titleFont;
+    width: 100%;
+    font-size: $footherFontSize;
+    font-weight: bold;
+    justify-content: space-between;
+}
+
+.container .foother p{
+    margin-left: $marginLeft;
+    margin-right: $marginLeft;
+}
+
+
+
+

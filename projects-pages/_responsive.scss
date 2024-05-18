@@ -1,0 +1,99 @@
+@media (max-width: 576px){
+
+    .container-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    }
+
+    .container .logo{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .container .logo a{
+        width: 10vw;
+    }
+
+    .container .logo img{
+        width: 10vw;
+
+    }
+
+    .container .container-title .project-title{
+        font-size: $titleMobileSize;
+        width: fit-content;
+    }
+
+    .container .project-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: $marginMobile;
+    }
+
+    .container .project-info .project-text{
+        font-size: $textMobileSize;
+        width: $textMobileWidth;
+        text-align: $textMobileAlign;
+    }
+
+    .container .project-buttons{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: $marginMobile;
+    }
+
+    .container .project-buttons .primary-button{
+        width: $buttonMobileWidth;
+        height: $buttonMobileHeight;
+        font-size: $buttonMobileFontSize;
+        margin-bottom: 15px;
+    }
+
+    .container .project-buttons .secondary-button{
+        width: $buttonMobileWidth;
+        height: $buttonMobileHeight;
+        font-size: $buttonMobileFontSize;
+    }
+
+
+    .container .project-img{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .container .project-img img{
+        margin: $marginMobile;
+        width: $projectMobileImgSize;
+    }
+
+    .container .back-to-home-button{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .container .back-to-home-button .secondary-button{
+    width: $buttonMobileWidth;
+    height: $buttonMobileHeight;
+    font-size: $buttonMobileFontSize;
+    margin: $marginMobile;
+    margin-bottom: 100px;
+    }
+
+    .container .back-to-home-button a{
+        width: $buttonMobileWidth;
+    }
+
+    .container .foother{
+        display: none;
+    }
+
+    
+    
+}

@@ -26,7 +26,3 @@ List any prerequisites for the project:
 - Code editor (e.g., VSCode, Sublime Text)
 
 ### Installation Steps
-
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/dorin-gim/dorinportfolio.git
